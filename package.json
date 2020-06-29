@@ -1,0 +1,20 @@
+{
+  "name": "letter-parser",
+  "version": "1.4.0",
+  "description": "Extracting, parsing and saving text from .doc files into an Excel sheet",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-stream-zip": "^1.10.1",
+    "textract": "^2.5.0",
+    "word-extractor": "^0.3.0",
+    "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "electron-reload": "^1.5.0"
+  }
+}
